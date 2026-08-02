@@ -101,29 +101,6 @@ woocommerce-custom-store-logic/
   a plain-language walkthrough for non-technical staff updating the promo
   banner.
 
-## What was deliberately skipped
-
-A few scoped items were investigated and dropped rather than built, to keep
-this portfolio build focused — full reasoning is in the project's task log:
-
-- **Size/fit add-to-cart validation** — WooCommerce core already blocks
-  add-to-cart for an invalid or unselected variation on its own; confirmed
-  against a real test fixture with zero custom code needed.
-- **Shipping rules / store announcements** — free-shipping thresholds are
-  already covered by WooCommerce core's Free Shipping method; a genuine
-  distance-based local-delivery rule has no core equivalent but was judged
-  out of scope; announcements were dropped as redundant with the promo
-  banner.
-- **Pickup slot capacity limiting** — removed after review; there is
-  currently no cap on bookings per location/date/time slot.
-
-## Status
-
-Phases 0–3 (environment, data modeling, cart/checkout logic, site-wide
-settings) are complete. Phase 4 (testing/QA) has real, live-verified
-edge-case coverage but is not exhaustive — this is a demonstration build,
-not a production launch.
-
 ## License
 
 GPL-2.0-or-later
