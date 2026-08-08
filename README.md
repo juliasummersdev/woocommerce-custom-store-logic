@@ -1,17 +1,8 @@
 # Custom Store Logic for WooCommerce
 
-A custom WooCommerce plugin demonstrating store logic that goes beyond
-off-the-shelf plugin configuration: product bundles with dynamic pricing,
+A custom WooCommerce plugin that allows for product bundles with dynamic pricing,
 size/fit variant data, and local-pickup scheduling for the WooCommerce
-**block** checkout — all modeled with [Secure Custom Fields](https://wordpress.org/plugins/secure-custom-fields/)
-(ACF Pro-compatible, free) and wired into WooCommerce via custom hooks, not
-additional plugins.
-
-This is a **portfolio/demonstration build** for [juliasummers.dev](https://juliasummers.dev),
-showing the kind of custom WooCommerce work that's possible beyond plugin
-configuration: real cart/checkout logic, upgrade-safe architecture, and a
-staff-manageable settings layer. Everything in the stack is free — no
-premium plugins, no paid theme, no paid SaaS dependencies.
+**block** checkout.
 
 ## Features
 
